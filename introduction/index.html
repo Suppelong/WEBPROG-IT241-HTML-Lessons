@@ -6,14 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
   <style>
-    
+    /* 1. FORCE COLORS */
+    .my-blue-bg {
+        background-color: #0d6efd !important;
+        color: white !important;
+    }
+    .my-black-bg {
+        background-color: #212529 !important;
+        color: white !important;
+    }
+
+    /* 2. Page Background */
     body {
         background-color: #f4f4f9; 
         font-family: Arial, sans-serif;
     }
 
-   
+    /* 3. Container Style */
     .profile-container {
         background-color: #ffffff;
         padding: 40px;
@@ -23,7 +34,7 @@
         margin-bottom: 30px;
     }
 
-    
+    /* 4. Remove Gaps */
     .row.no-gutters {
         margin-right: 0;
         margin-left: 0;
@@ -34,7 +45,7 @@
         padding-left: 0;
     }
 
-    
+    /* 5. Padding inside boxes */
     .content-box {
         padding: 25px;
         height: 100%;
@@ -52,10 +63,10 @@
       Name: Carpio, Beejay A.<br>
       <small class="text-muted">( Do not include birthdate / age / contact information )</small>
     </p>
-    </div>
+  </div>
 
   <div class="row no-gutters">
-    <div class="col-md-6 bg-primary text-white">
+    <div class="col-md-6 my-blue-bg">
       <div class="content-box">
         <h3>Education</h3>
         <p>Currently taking Bachelors Degree in Information Technology<br>
@@ -63,7 +74,7 @@
       </div>
     </div>
     
-    <div class="col-md-6 bg-dark text-white">
+    <div class="col-md-6 my-black-bg">
       <div class="content-box">
         <h3>IT Experience</h3>
         <ul>
@@ -78,26 +89,29 @@
   <div style="height: 20px;"></div>
 
   <div class="row no-gutters">
-    <div class="col-md-4 bg-primary text-white">
+    <div class="col-md-4 my-blue-bg">
       <div class="content-box">
         <h5>Hobbies & Interests</h5>
         <p>Reading novels and playing online games</p>
       </div>
     </div>
     
-    <div class="col-md-4 bg-dark text-white">
+    <div class="col-md-4 my-black-bg">
       <div class="content-box">
         <h5>Goals In Life / Dream</h5>
         <p>I want to be a successful Network Infrastructure Engineer</p>
       </div>
     </div>
     
-    <div class="col-md-4 bg-primary text-white text-center">
+    <div class="col-md-4 my-blue-bg text-center">
       <div class="content-box">
         <h5 class="mb-3">Picture Gallery</h5>
-        <img src="https://scontent.fmnl37-1.fna.fbcdn.net/v/t1.6435-9/86831261_3346886315325946_6627865481032237056_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEqEyPuoWihDEmmMeGQL_96Jhk-bcURzNomGT5txRHM2qEJCzUiXjY9XdEUwpTrVF-imOILSn3UGknxThRQ6lFB&_nc_ohc=ENcGBBI8Q28Q7kNvwFAHKC7&_nc_oc=AdloCFOxXifLryecbWlqdAPsf2RIfmU_w5E-YAhlP21UJl18KEjuy7zciw8MwGP_ZgA&_nc_zt=23&_nc_ht=scontent.fmnl37-1.fna&_nc_gid=V0gThUC32mG2PYhmR0eTgw&oh=00_AfnY_bDGl-vM_ufBBZgdTYG4AC0uKaEdRf1u66lK9f_bvA&oe=6959A41F" 
+        
+        <img src="86831261_3346886315325946_6627865481032237056_n.jpg" 
              alt="Me with a jacket" 
-             class="img-fluid rounded-circle border border-3 border-white">
+             class="img-fluid rounded-circle border border-3 border-white"
+             style="max-width: 150px; height: auto;">
+             
       </div>
     </div>
   </div>
