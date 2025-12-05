@@ -6,29 +6,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+   
+    body {
+        background-color: #e9ecef; 
+    }
+ 
+    .profile-container {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .row.no-gutters {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .row.no-gutters > [class^="col-"],
+    .row.no-gutters > [class*=" col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .content-box {
+        padding: 20px;
+        height: 100%; 
+    }
+  </style>
 </head>
 <body>
 
-<div class="container-fluid mt-3">
-  <h1>My Personal Profile Web page</h1>
+<div class="container mt-4 profile-container">
+  <h1 class="mb-4">My Personal Profile Web page</h1>
   
-  <p>
-    <strong>About Me</strong><br>
-    Name: Carpio, Beejay A.<br>
-    ( Do not include birthdate / age / contact information )
-  </p>
-  
-  <p>If the screen size is <strong>less than 768px</strong>, the columns will stack horizontally.</p>
+  <div class="mb-4">
+    <p class="fs-5">
+      <strong>About Me</strong><br>
+      Name: Carpio, Beejay A.<br>
+      <small class="text-muted">( Do not include birthdate / age / contact information )</small>
+    </p>
+    <p class="text-muted">If the screen size is <strong>less than 768px</strong>, the columns will stack horizontally.</p>
+  </div>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md bg-primary text-white p-3">
+  <div class="row no-gutters">
+    <div class="col-md-6 bg-primary text-white">
+      <div class="content-box">
         <h3>Education</h3>
         <p>Currently taking Bachelors Degree in Information Technology<br>
         <strong>Course:</strong> Bachelors of Science in Information Technology</p>
       </div>
-      
-      <div class="col-md bg-dark text-white p-3">
+    </div>
+    
+    <div class="col-md-6 bg-dark text-white">
+      <div class="content-box">
         <h3>IT Experience</h3>
         <ul>
             <li>Flappy Dragon</li>
@@ -41,26 +72,25 @@
 
   <br>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md bg-primary text-white p-3">
+  <div class="row no-gutters">
+    <div class="col-md-4 bg-primary text-white">
+      <div class="content-box">
         <h5>Hobbies & Interests</h5>
         <p>Reading novels and playing online games</p>
       </div>
-      
-      <div class="col-md bg-dark text-white p-3">
+    </div>
+    
+    <div class="col-md-4 bg-dark text-white">
+      <div class="content-box">
         <h5>Goals In Life / Dream</h5>
         <p>I want to be a successful Network Infrastructure Engineer</p>
       </div>
-      
-      <div class="col-md bg-primary text-white p-3">
-        <h5>Picture Gallery</h5>
-        <img src="https://via.placeholder.com/150" alt="Me with a jacket" class="img-fluid" style="max-width: 100%;">
-      </div>
-      
-      <div class="col-md bg-dark text-white p-3">
-        <h5>Notes</h5>
-        <p>Profile Details Completed.</p>
+    </div>
+    
+    <div class="col-md-4 bg-primary text-white text-center">
+      <div class="content-box">
+        <h5 class="mb-3">Picture Gallery</h5>
+        <img src="https://placehold.co/150x150?text=Beejay's+Photo" alt="Me with a jacket" class="img-fluid rounded-circle border border-3 border-white">
       </div>
     </div>
   </div>
