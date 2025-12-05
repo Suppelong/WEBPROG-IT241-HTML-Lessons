@@ -1,0 +1,42 @@
+
+.my-blue-bg {
+    background-color: #0d6efd !important;
+    color: white !important;
+}
+.my-black-bg {
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+
+body {
+    background-color: #f4f4f9; 
+    font-family: Arial, sans-serif;
+}
+
+
+.profile-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+.content-box {
+    padding: 25px;
+    height: 100%;
+}
