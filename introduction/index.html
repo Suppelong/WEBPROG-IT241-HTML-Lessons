@@ -1,54 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/rwd.css"?version=0.4>
-<title>Hello</title>
+    <title>Beejay A. Carpio | Personal Website</title>
+    <link rel="stylesheet" href="css/rwd.css">
 </head>
 
-
 <body>
- 
+
 <div class="grid-container">
-<div class="header">
-    <h1>My Personal Webpage - Beejay A. Carpio</h1>
+    <header class="header">
+        <h1>Beejay A. Carpio</h1>
+        <p>Future Network Infrastructure Engineer</p>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education & Course</a></li>
+            <li><a href="#experience">IT Experience</a></li>
+            <li><a href="#gallery">Picture Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my personal page. I am passionate about technology and networking.</p>
+            
+            <h3>Hobbies & Interests:</h3>
+            <ul>
+                <li>Playing games online and offline.</li>
+                <li>Watching sitcoms and movies.</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>Current Status:</strong> Taking Bachelor's Degree in Information Technology</p>
+            <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
+        </section>
+    </main>
+
+    <aside class="facts">
+        <h2>Goals / Dream</h2>
+        <ul>
+            <li>To become a successful Network Infrastructure Engineer</li>
+            <li>To travel the world</li>
+        </ul>
+
+        <h2>IT Experience / Projects</h2>
+        <ul class="project-list">
+            <li>Flappy Dragon</li>
+            <li>BorrowIT</li>
+            <li>Dropstock Shoe Reselling Website</li>
+        </ul>
+    </aside>
+
+    <section id="gallery" class="gallery-section">
+        <h2>My Picture Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t39.30808-6/486266429_24114839354770672_1960152186318622796_n.jpg?_nc_cat=104&_nc_cb=99be929b-ad57045b&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGKnU1smhSh0FowYQ2j6-wcXwf3rJRcoqlfB_eslFyiqVWV3Q9yd02Dcmh_rPYpN0CWjjIbrBqx4xFYfCXrx6Uc&_nc_ohc=5_qdDiMJwUAQ7kNvwEl4Tdt&_nc_oc=Adm9t71tUwSdGo3mtgr0QiHtUl-KmfoyW2oimQCxcBhFuJ41PberzrcSjmAfbSjD-GQ&_nc_zt=23&_nc_ht=scontent.fmnl3-4.fna&_nc_gid=BFq3p1VGr0jBtarFlY3B4w&oh=00_AflYTotv_QOyclALA6BXxLorC4xZaqrgbqQfJm0274dPpg&oe=69468EEA" alt="Beejay Carpio Profile">
+                <p>Profile Picture</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300x300/8b0000/ffffff?text=Gallery+Img+2" alt="Gallery Image 2">
+                <p>Gaming Setup</p>
+            </div>
+             <div class="gallery-item">
+                <img src="https://via.placeholder.com/300x300/8b0000/ffffff?text=Gallery+Img+3" alt="Gallery Image 3">
+                <p>Travel Photo</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Beejay A. Carpio | Personal Website</p>
+        <p style="font-size: 0.8em; color: #888;">
+            AI Assistance Used: Code generated/refined by Gemini AI. 
+            <a href="#" style="color: #ff4d4d;">[Link to AI Chat Log]</a>
+        </p>
+    </footer>
 </div>
- 
-<div class="menu">
-    <ul>
-        <li>Education/Achievements</li>
-        <li>Course</li>
-        <li>IT Experience</li>
-        <li>Hobbies & Interests</li>
-    </ul>
-</div>
- 
-<div class="content">
-    <h1>About Me</h1>
-    Education:Currently taking Bachelors Degree in Information Technology <br>
-    Course: Bachelors of Science in Information Technology <br>
-    Hobbies and Interests:
-    <ul>
-        <li>Playing games online and offline.</li>
-        <li>Watching sitcoms and movies.</li>
-    </div>  
- 
-<div class="facts">
-<h2>Goals In Life / Dream:</h2>
-<ul>
-    <li>I want to be a successful Network Infrastructure Engineer</li>
-    <li>To travel the world</li>
-</ul>
-IT Experience:<br>
- Flappy Dragon<br>
- BorrowIT<br>
- Dropstock Shoe Reselling Website<br>
-</div>
- 
-<div class="footer"><p>Picture Gallery<br>
- <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t39.30808-6/486266429_24114839354770672_1960152186318622796_n.jpg?_nc_cat=104&_nc_cb=99be929b-ad57045b&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGKnU1smhSh0FowYQ2j6-wcXwf3rJRcoqlfB_eslFyiqVWV3Q9yd02Dcmh_rPYpN0CWjjIbrBqx4xFYfCXrx6Uc&_nc_ohc=5_qdDiMJwUAQ7kNvwEl4Tdt&_nc_oc=Adm9t71tUwSdGo3mtgr0QiHtUl-KmfoyW2oimQCxcBhFuJ41PberzrcSjmAfbSjD-GQ&_nc_zt=23&_nc_ht=scontent.fmnl3-4.fna&_nc_gid=BFq3p1VGr0jBtarFlY3B4w&oh=00_AflYTotv_QOyclALA6BXxLorC4xZaqrgbqQfJm0274dPpg&oe=69468EEA"</p></div>
-</div>
- 
-  
+
 </body>
 </html>
